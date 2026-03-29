@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horários - Turma 2-52</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Horários <span>Turma 252</span></h1>
+      <p id="currentInfo"></p>
+    </header>
+
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab('manha')">Manhã</button>
+      <button class="tab-btn" onclick="switchTab('tarde')">Tarde</button>
+    </div>
+
+    <div id="manha" class="schedule active"></div>
+    <div id="tarde" class="schedule"></div>
+    <div class="legend" id="legend"></div>
+
+    <footer>
+      Turma 252 &middot; Horários atualizados em 29/03/2026
+    </footer>
+  </div>
+
+  <script src="script.js" defer ></script>
+</body>
+</html>
