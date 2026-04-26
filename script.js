@@ -1,3 +1,8 @@
+const Profs = ["Inglês|Jhonatan", "História|Darlan", "Ed. Física|Mario", "Geografia|Cida", "Biologia|Débora",
+  "Sociologia|Rosiane", "Soc. Trabalho|Rosiane", "Português|Talita", "Filosofia|Bárbara", "Física|Letícia",
+  "Matemática|Silvana", "Arte|Inês", "Química|Otto", ,"PAP|Matheus","LPL|Julcemar", "PPW|Lucas", "Redes|Magaiver"
+];
+
 const HORARIOS = {
 
       // MANHÃ
@@ -5,11 +10,11 @@ const HORARIOS = {
         dias: ["Seg", "Ter", "Qua", "Qui", "Sex"],
         diasNum: [1, 2, 3, 4, 5],
         aulas: [
-          ["7:45",   "Inglês|Jhonatan",   "Geografia|Cida",           "PPW|Lucas",            "Português|Talita",     "Soc. Trabalho|Rosiane" ],
-          ["8:30",   "Inglês|Jhonatan",   "Biologia|Débora",          "PPW|Lucas",            "Português|Talita",     "Soc. Trabalho|Rosiane" ],
-          ["9:15",   "História|Darlan",   "Sociologia|Rosiane",       "PPW|Lucas",            "Física|Letícia",       "Português|Talita"      ],
-          ["10:15",  "Ed. Física|Mario",  "Soc. Trabalho|Rosiane",    "Filosofia|Bárbara",    "Física|Letícia",       "Ed. Física|Mario"      ],
-          ["11:00",  "História|Darlan",   "Português|Talita",         "Biologia|Débora",      "Matemática|Silvana",   "Redes|Magaiver"        ],
+          ["7:45",   "Português|Talita",    "Biologia|Débora",           "PPW|Lucas",            "Português|Talita",     "Soc. Trabalho|Rosiane" ],
+          ["8:30",   "Ed. Física|Mario",    "Português|Talita",          "PPW|Lucas",            "Português|Talita",     "Ed. Física|Mario"      ],
+          ["9:15",   "Inglês|Jhonatan",     "Geografia|Cida",            "PPW|Lucas",            "Física|Letícia",       "Redes|Magaiver"        ],
+          ["10:15",  "Inglês|Jhonatan",     "Soc. Trabalho|Rosiane",     "Biologia|Débora",      "Física|Letícia",       "História|Darlan"       ],
+          ["11:00",  "Redes|Magaiver",      "Soc. Trabalho|Rosiane",     "Filosofia|Bárbara",    "Matemática|Silvana",   "Sociologia|Rosiane"    ],
         ]
       },
 
@@ -18,11 +23,11 @@ const HORARIOS = {
         dias: ["Seg", "Qui", "Sex"],
         diasNum: [1, 4, 5],
         aulas: [
-          ["13:15",  "PAP|Matheus",       "Matemática|Silvana",    "Redes|Magaiver"    ],
-          ["14:00",  "Filosofia|Bárbara", "PAP|Matheus",           "Arte|Inês"         ],
-          ["14:45",  "LPL|Julcemar",      "Geografia|Cida",        "Matemática|Silvana"],
-          ["15:45",  "LPL|Julcemar",      "Química|Otto",          "Matemática|Silvana"],
-          ["16:30",  "LPL|Julcemar",      "Química|Otto",          "Arte|Inês"         ],
+          ["13:15",  "PAP|Matheus",       "Matemática|Silvana",    "Geografia|Cida"       ],
+          ["14:00",  "Filosofia|Bárbara", "PAP|Matheus",           "Matemática|Silvana"   ],
+          ["14:45",  "LPL|Julcemar",      "Química|Otto",          "Matemática|Silvana"   ],
+          ["15:45",  "LPL|Julcemar",      "Química|Otto",          "Arte|Inês"            ],
+          ["16:30",  "LPL|Julcemar",      "História|Darlan",       "Arte|Inês"            ],
         ]
       }
     };
