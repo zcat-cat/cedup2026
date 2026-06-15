@@ -10,11 +10,11 @@ const HORARIOS = {
         dias: ["Seg", "Ter", "Qua", "Qui", "Sex"],
         diasNum: [1, 2, 3, 4, 5],
         aulas: [
-          ["07:45", "História|Darlan",  "Biologia|Débora",    "PPW|Lucas",         "Português|Talita",   "Soc. Trabalho|Cassia"],
-          ["08:30", "Física|Letícia",   "Biologia|Débora",    "PPW|Lucas",         "Português|Talita",   "Soc. Trabalho|Cassia"],
-          ["09:15", "Português|Talita", "Português|Talita",   "PPW|Lucas",         "Matemática|Silvana", "Redes|Magaiver"],
-          ["10:15", "Ed. Física|Mario", "Ed. Física|Mario",   "Física|Letícia",    "Matemática|Silvana", "Geografia|Cida"],
-          ["11:00", "Redes|Magaiver",   "Geografia|Cida",     "Filosofia|Bárbara", "História|Darlan",    "Inglês|Jhonatan"]
+          ["07:45", "História|Darlan",    "Português|Talita",  "PPW|Lucas",         "Geografia|Cida",     "Soc. Trabalho|Cassia"],
+          ["08:30", "Ed. Física|Mario",   "Português|Talita",  "PPW|Lucas",         "Português|Talita",   "Soc. Trabalho|Cassia"],
+          ["09:15", "Português|Talita",   "Biologia|Débora",   "PPW|Lucas",         "Física|Letícia",     "Redes|Matheus"],
+          ["10:15", "Física|Letícia",     "Inglês|Jhonatan",   "Filosofia|Bárbara", "Matemática|Silvana", "História|Darlan"],
+          ["11:00", "Redes|Matheus",      "Geografia|Cida",    "Biologia|Débora",   "Matemática|Silvana", "Ed. Física|Mario"]
         ]
       },
 
