@@ -1,30 +1,31 @@
 const HORARIOS = {
 
     // MANHÃ
-      manha: {
-        dias: ["Seg", "Ter", "Qua", "Qui", "Sex"],
-        diasNum: [1, 2, 3, 4, 5],
-        aulas: [
-          ["07:45", "Ed. Física|Mario", "Biologia|Débora", "PPW|Lucas",         "Português|Talita",   "Soc. Trabalho|Cassia"],
-          ["08:30", "História|Darlan",  "Biologia|Débora", "PPW|Lucas",         "Português|Talita",   "Soc. Trabalho|Cassia"],
-          ["09:15", "Física|Letícia",   "História|Darlan", "PPW|Lucas",         "Ed. Física|Mario",   "Redes|Mateus"],
-          ["10:15", "Física|Letícia",   "Geografia|Cida",  "Geografia|Cida",    "Matemática|Silvana", "Português|Talita"],
-          ["11:00", "Redes|Mateus",     "Inglês|Jhonatan", "Filosofia|Bárbara", "Matemática|Silvana", "Português|Talita"]
-        ]
-      },
+manha: {
+  dias: ["Seg", "Ter", "Qua", "Qui", "Sex"],
+  diasNum: [1, 2, 3, 4, 5],
+  aulas: [
+    ["07:45", "História|Darlan",  "Biologia|Débora",  "Arte|Inês",         "Inglês|Jhonatan",     "Inglês|Jhonatan"],
+    ["08:30", "Ed. Física|Mario", "Biologia|Débora",  "História|Darlan",   "Ed. Física|Mario",    "Português|Talita"],
+    ["09:15", "Física|Letícia",   "PPW|Lucas",        "Filosofia|Bárbara", "Geografia|Cida",      "Soc. Trabalho|Cassia"],
+    ["10:15", "Física|Letícia",   "Português|Talita", "Filosofia|Bárbara", "Matemática|Fernando", "Soc. Trabalho|Cassia"],
+    ["11:00", "Português|Talita", "Português|Talita", "Geografia|Cida",    "Matemática|Fernando", "Matemática|Fernando"]
+  ]
+},
 
-      // TARDE
-      tarde: {
-        dias: ["Seg", "Qui", "Sex"],
-        diasNum: [1, 4, 5],
-        aulas: [
-          ["13:15", "PAP|Matheus",       "Soc. Trabalho|Cassia", "Inglês|Jhonatan"],
-          ["14:00", "Filosofia|Bárbara", "Sociologia|Cassia",    "Matemática|Silvana"],
-          ["14:45", "LPL|Jucemar",       "Química|Otto",         "Matemática|Silvana"],
-          ["15:45", "LPL|Jucemar",       "Química|Otto",         "Arte|Inês"],
-          ["16:30", "LPL|Jucemar",       "PAP|Matheus",          "Arte|Inês"]
-        ]
-      }
+// TARDE
+tarde: {
+  dias: ["Seg", "Qui", "Sex"],
+  diasNum: [1, 4, 5],
+  aulas: [
+    ["13:15", "PAP|Matheus", "Soc. Trabalho|Cassia", "Matemática|Fernando"],
+    ["14:00", "Arte|Inês",   "Sociologia|Cassia",    "PPW|Lucas"],
+    ["14:45", "LPL|Jucemar", "Química|Otto",         "PPW|Lucas"],
+    ["15:45", "LPL|Jucemar", "Química|Otto",         "Redes|Alex"],
+    ["16:30", "LPL|Jucemar", "PAP|Matheus",          "Redes|Alex"]
+  ]
+}
+
     };
 
     // CATEGORIAS DAS MATÉRIAS
