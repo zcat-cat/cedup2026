@@ -195,7 +195,6 @@ header p {
 .cat-math { background: var(--math-bg); color: var(--math); }
 .cat-tech { background: var(--tech-bg); color: var(--tech); }
 .cat-human { background: var(--human-bg); color: var(--human); }
-.cat-phys { background: var(--phys-bg); color: var(--phys); }
 .cat-art { background: var(--art-bg); color: var(--art); }
 .cat-social { background: var(--social-bg); color: var(--social); }
 
