@@ -5,12 +5,12 @@ manha: {
       dias: ["Seg", "Ter", "Qua", "Qui", "Sex"],
       diasNum: [1, 2, 3, 4, 5],
       aulas: [
-        ["07:45", "Arte|Inês",        "Geografia|Cida",   "Física|Letícia",      "Redes|Insira Texto",  "Inglês|Jhonatan"],
-        ["08:30", "Ed. Física|Mario", "Português|Talita", "Matemática|Fernando", "Redes|Insira Texto",  "Soc. Trabalho|Luiz"],
-        ["09:15", "PPW|Lucas",        "História|Bruno",   "Matemática|Fernando", "Geografia|Cida",      "Soc. Trabalho|Luiz"],
-        ["10:15", "Física|Letícia",   "Biologia|Débora",  "Filosofia|Bárbara",   "PAP|Matheus",         "Português|Talita"],
-        ["11:00", "PAP|Matheus",      "Biologia|Débora",  "Filosofia|Bárbara",   "Inglês|Jhonatan",     "Português|Talita"]
-      ]
+          ["07:45", "Sociologia|Luiz",  "Biologia|Débora",     "Matemática|Fernando", "PAP|Matheus",      "Soc. Trabalho|Luiz"],
+          ["08:30", "Ed. Física|Mario", "Matemática|Fernando", "Matemática|Fernando", "Português|Talita", "Soc. Trabalho|Luiz"],
+          ["09:15", "Arte|Inês",        "Inglês|Jhonatan",     "Biologia|Débora",     "Português|Talita", "Ed. Física|Mario"],
+          ["10:15", "Português|Talita", "História|Bruno",      "História|Bruno",      "Redes|Anderson",   "Geografia|Cida"],
+          ["11:00", "Português|Talita", "PPW|Lucas",           "Filosofia|Bárbara",   "Redes|Anderson",   "Geografia|Cida"]
+        ]
     },
     
     // TARDE
@@ -18,12 +18,12 @@ manha: {
       dias: ["Seg", "Qui", "Sex"],
       diasNum: [1, 4, 5],
       aulas: [
-        ["13:15", "Soc. Trabalho|Luiz", "Português|Talita",    "Matemática|Fernando"],
-        ["14:00", "Sociologia|Luiz",    "Ed. Física|Mario",    "História|Bruno"],
-        ["14:45", "LPL|Jucemar",        "Química|Otto",        "Arte|Inês"],
-        ["15:45", "LPL|Jucemar",        "Química|Otto",        "PPW|Lucas"],
-        ["16:30", "LPL|Jucemar",        "Matemática|Fernando", "PPW|Lucas"]
-      ]
+          ["13:15", "Soc. Trabalho|Luiz", "PAP|Matheus",    "Arte|Inês"],
+          ["14:00", "Filosofia|Bárbara",  "Física|Letícia", "Matemática|Fernando"],
+          ["14:45", "LPL|Jucemar",        "Física|Letícia", "Inglês|Jhonatan"],
+          ["15:45", "LPL|Jucemar",        "Química|Otto",   "PPW|Lucas"],
+          ["16:30", "LPL|Jucemar",        "Química|Otto",   "PPW|Lucas"]
+        ]
     }
 };
 
